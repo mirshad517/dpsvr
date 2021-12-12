@@ -38,7 +38,7 @@ def start(update, context):
     update.message.reply_text(
         START_MSG,
         parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton("Follow Support ", url="https://instagram.com/mirshad_kvr?utm_medium=copy_link")]]))
+                    [[InlineKeyboardButton("🎭Developer🎭", url="https://instagram.com/mirshad_kvr?utm_medium=copy_link")]]))
 
 def help_msg(update, context):
     update.message.reply_text("Enter Your Instagram UserName")
