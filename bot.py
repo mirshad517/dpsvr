@@ -15,7 +15,6 @@ TELEGRAM_USERNAME = os.getenv("TELEGRAM_USERNAME")
 START_MSG = '''*Welcome To the Bot🖐🖐*
 
 _Send me anyones instagram username to get their DP_
-_Report Bugs @programmer_kid_bot_
 *ex :* `mirshad_kvr`...., *etc*'''
 
 logging.basicConfig(
@@ -71,7 +70,7 @@ def username(update, context):
         msg.edit_text("finished.")
         time.sleep(5)
     except Exception:
-        msg.edit_text("Try again 😕😕 Check the username correctly")
+        msg.edit_text("Try again 😕😕 Check the username correctly ഇനി നമ്മൾ എന്തു ചെയ്യും മല്ലയ്യ 😕😕")
 
 
 
